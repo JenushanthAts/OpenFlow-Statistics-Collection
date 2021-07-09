@@ -10,6 +10,7 @@ Getting statistics collection of openflow networks for custom topology using Min
 ### Step 1: 
 Create custom topology which you wish .And the topology is completely written in python. Look at my code , here I have choosen 2 wireless-access points and 5 stations which can able to move(mobility) , then run the code in your terminal eventually you can get like this.
 
+![alt text](https://github.com/JenushanthAts/OpenFlow-Statistics-Collection/blob/master/mytopology.png?raw=true)
 ![alt text](https://github.com/JenushanthAts/OpenFlow-Statistics-Collection/blob/master/Figure_1.png?raw=true)
 
 
