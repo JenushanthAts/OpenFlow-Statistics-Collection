@@ -19,7 +19,7 @@ ryu-manager Traffic_monitor.py
 ![alt text](https://github.com/JenushanthAts/OpenFlow-Statistics-Collection/blob/master/mytopology.png?raw=true)
 This is my custom-topology .
 
-The topology is completely written in python. Look at my code , here I have choosen one OVS-SWitch , 2 wireless-access points and 5 stations which can able to move(mobility) , then run the code in another tab.
+The topology is completely written in python. Look at my code , here I have choosen one OVS-Switch , 2 wireless-access points and 5 stations which can able to move(mobility) , then run the code in another tab.
 
 ```
 sudo python3 Custom_topology_mobility.py
@@ -30,7 +30,7 @@ Eventually you will get like this
 
 
 
-Then you can check the trace files which contains openflow statistics collection(Port statistics) in your directory where you have implemented your program.
+Then you can check the trace files which contains openflow statistics collection(Port statistics and Flow statistics) in your directory where you have implemented your program.
 In case of getting actual bandwidth of ports / flow ,you have to initiate Tcp traffic.
 
 
