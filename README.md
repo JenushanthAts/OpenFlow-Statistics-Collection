@@ -8,7 +8,7 @@ Getting statistics collection of openflow networks for custom topology using Min
 4. Ubuntu - version 20.04 is better / 18.04 
 
 ### Step 1:
-connect Ryu-controller which can work as remote controller and run it along with traffic-monitoring file in one tab.
+Connect Ryu-controller which can work as remote controller and run it along with traffic-monitoring file in one tab.
 
 ```
 ryu-manager Traffic_monitor.py
@@ -30,7 +30,8 @@ Eventually you will get like this
 
 
 
-Then you can check the trace files which contains openflow statistics collection(Port statistics and Flow statistics) in your directory where you have implemented your program.
+Then you can check the trace files which contains openflow statistics collection(Port statistics) in your directory where you have implemented your program.
+In case of getting actual bandwidth of ports / flow ,you have to initiate Tcp traffic.
 
 
 #### Hope this will help you .Best wishes.
