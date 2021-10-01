@@ -16,7 +16,7 @@ ryu-manager Traffic_monitor.py
 
 
 ### Step 2: 
-![alt text](https://github.com/JenushanthAts/OpenFlow-Statistics-Collection/blob/master/mytopology.png?raw=true)
+![alt text](https://github.com/JenushanthAts/OpenFlow-Statistics-Collection/blob/master/my_custom_topology.png?raw=true)
 This is my custom-topology .
 
 The topology is completely written in python. Look at my code , here I have choosen one OVS-Switch , 2 wireless-access points and 5 stations which can able to move(mobility) , then run the code in another tab.
